@@ -128,6 +128,6 @@ export const PROJECTS: Project[] = [
 
 export const HERO_STATS: Stat[] = [
   { label: 'Experience', value: '2+', description: 'Years building software' },
-  { label: 'Stack', value: 'Full', description: 'Backend heavy, Frontend capable' },
+  { label: 'Stack', value: 'Full', description: 'Backend heavy, cloud native' },
   { label: 'Focus', value: 'Scale', description: 'Enterprise grade solutions' }
 ];

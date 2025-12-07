@@ -9,9 +9,9 @@ const Projects: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6 border-b-4 border-black pb-8">
           <div>
-            <h2 className="text-6xl font-black font-heading uppercase">Case Studies</h2>
+            <h2 className="text-6xl font-black font-heading uppercase">Projects</h2>
             <p className="font-serif text-xl text-gray-600 mt-2 max-w-xl">
-              Selected works demonstrating engineering capabilities and problem-solving skills.
+              A selection of applications and systems I’ve developed in my spare time.
             </p>
           </div>
           <div className="bg-black text-white px-4 py-2 font-bold font-mono text-sm">
