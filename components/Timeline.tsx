@@ -103,14 +103,14 @@ const Timeline: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 relative">
         <div className="text-center mb-24">
           <span className="bg-black text-white px-4 py-1 text-sm font-bold uppercase tracking-widest">The Journey So Far</span>
-          <h2 className="text-5xl font-black font-heading mt-4 mb-6">CHRONICLES OF BUILD</h2>
+          <h2 className="text-5xl font-black font-heading mt-4 mb-6">My Build Journey</h2>
           <p className="font-serif text-xl text-gray-600 max-w-2xl mx-auto">
-            A timeline of learning, building, and delivering value across industries.
+            A timeline of the work, projects, and lessons that shaped my path.
           </p>
         </div>
 
         {/* Center Line */}
-        <div className="hidden md:block absolute left-1/2 top-32 bottom-32 w-1 bg-black transform -translate-x-1/2 z-0"></div>
+        <div className="hidden md:block absolute left-1/2 top-60 bottom-32 w-1 bg-black transform -translate-x-1/2 z-0"></div>
 
         <div className="space-y-12 md:space-y-0">
           {STORY_CHAPTERS.map((chapter, index) => (
