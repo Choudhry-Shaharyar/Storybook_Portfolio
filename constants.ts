@@ -39,7 +39,7 @@ export const STORY_CHAPTERS: Chapter[] = [
     subtitle: 'Software Engineer Intern @ TD Bank',
     period: 'May 2023 – Aug. 2023',
     location: 'Toronto, ON',
-    description: 'Coming back to TD meant working on something larger: modernizing the Interest Allocation System, a core service used across more than 70 business units. My work focused on strengthening the platform’s security posture, upgrading frameworks, and improving long-term maintainability.This chapter taught me the real engineering reasons behind upgrades. Keeping systems secure, reliable, and ready for future scale and not just “rewriting code.” I learned how critical it is to modernize before risks accumulate, not after.',
+    description: 'Coming back to TD meant working on something larger: modernizing the Interest Allocation System, a core service used across more than 70 business units. My work focused on strengthening the platform’s security posture, upgrading frameworks, and improving long-term maintainability. This chapter taught me the real engineering reasons behind upgrades. Keeping systems secure, reliable, and ready for future scale and not just “rewriting code.” I learned how critical it is to modernize before risks accumulate, not after.',
     achievements: [
       'Migrated Interest Allocation System to Java 17 & Spring Boot 3.0',
       'Conducted system hardening and dependency upgrades for long-term support',
@@ -79,7 +79,7 @@ export const PROJECTS: Project[] = [
     stats: [
       { label: 'Monthly Users', value: '10k+' },
       { label: 'SEO Ranking', value: '#1' },
-      { label: 'Impressions', value: '60k/mo' }
+      { label: 'Impressions', value: '150k/mo' }
     ]
   },
   {
