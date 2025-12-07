@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
           THE NEXT CHAPTER?
         </h2>
         <p className="text-xl md:text-2xl font-serif text-gray-400 mb-12 max-w-2xl mx-auto">
-          Every great story has a sequel. Let's collaborate to build scalable, impactful software solutions together.
+          Every great story has a sequel, reach out to me to build the next chapter.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -37,9 +37,9 @@ const Contact: React.FC = () => {
                 <Linkedin size={20} />
                 <span className="font-medium">linkedin.com/in/shaharyar-choudhry</span>
               </a>
-              <a href="https://shaharyarchoudhry.me" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-gray-700 hover:text-green-600 transition-colors">
+              <a href="https://github.com/Choudhry-Shaharyar" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-gray-700 hover:text-green-600 transition-colors">
                 <Globe size={20} />
-                <span className="font-medium">shaharyarchoudhry.me</span>
+                <span className="font-medium">github.com/Choudhry-Shaharyar</span>
               </a>
             </div>
           </ComicPanel>

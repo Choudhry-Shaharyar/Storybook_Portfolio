@@ -26,8 +26,8 @@ const App: React.FC = () => {
     <main className="min-h-screen bg-gray-50 text-gray-900 selection:bg-green-200 selection:text-green-900">
       <Hero />
       <Timeline />
-      <Projects />
       <About />
+      <Projects />
       <Contact />
 
       <button

@@ -63,9 +63,20 @@ const Projects: React.FC = () => {
                   </div>
                 )}
 
-                <button className="w-full bg-black text-white py-3 font-bold font-heading border-2 border-transparent hover:bg-white hover:text-black hover:border-black transition-all">
-                  VIEW DETAILS
-                </button>
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full text-center bg-black text-white py-3 font-bold font-heading border-2 border-transparent hover:bg-white hover:text-black hover:border-black transition-all"
+                  >
+                    VIEW DETAILS
+                  </a>
+                ) : (
+                  <button className="w-full bg-black text-white py-3 font-bold font-heading border-2 border-transparent hover:bg-white hover:text-black hover:border-black transition-all">
+                    VIEW DETAILS
+                  </button>
+                )}
               </div>
             </ComicPanel>
           ))}
