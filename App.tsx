@@ -25,8 +25,8 @@ const App: React.FC = () => {
   return (
     <main className="min-h-screen bg-gray-50 text-gray-900 selection:bg-green-200 selection:text-green-900">
       <Hero />
-      <Timeline />
       <About />
+      <Timeline />
       <Projects />
       <Contact />
 

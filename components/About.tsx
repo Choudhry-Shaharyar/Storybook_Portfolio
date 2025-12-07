@@ -57,7 +57,7 @@ const About: React.FC = () => {
                 Technical Profile
               </h3>
               <p className="font-serif text-lg leading-relaxed mb-8">
-                I specialize in building robust backend systems and scalable applications. Whether I’m architecting APIs, designing system workflows, optimizing large datasets, migrating applications to Kubernetes, or introducing modern authentication like OAuth2/OIDC, my focus is always the same: performance, reliability, and clean architecture. I work end-to-end — from gathering requirements and shaping the design, to implementing features, securing infrastructure, managing pipelines, testing thoroughly, and shipping to production.
+                I specialize in building robust backend systems and scalable applications. Whether I’m architecting APIs, designing system workflows, optimizing large datasets, migrating applications to Kubernetes, or introducing modern authentication like OAuth2/OIDC, my focus is always the same: performance, reliability, and clean architecture. I work end-to-end, from gathering requirements and shaping the design, to implementing features, securing infrastructure, managing pipelines, testing thoroughly, and shipping to production.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12">

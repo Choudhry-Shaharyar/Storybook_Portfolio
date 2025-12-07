@@ -67,8 +67,8 @@ const Hero: React.FC = () => {
         >
           <ComicPanel variant="dark" className="flex-1 flex flex-col justify-center items-center min-h-[300px]">
             <div className="grid grid-cols-2 gap-4 opacity-80 mb-6">
-              <Terminal size={48} className="text-green-400" />
-              <Database size={48} className="text-green-400" />
+              <Terminal size={48} className="text-white" />
+              <Database size={48} className="text-blue-400" />
               <Cpu size={48} className="text-red-400" />
               <div className="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center font-bold text-xl">
                 C#

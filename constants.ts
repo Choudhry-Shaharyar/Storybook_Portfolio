@@ -14,7 +14,7 @@ export const STORY_CHAPTERS: Chapter[] = [
       'Leadership in academic projects'
     ],
     techStack: ['Java', 'C++', 'System Design', 'Algorithms', 'Software Architecture'],
-    image: 'https://picsum.photos/800/600?grayscale&blur=2',
+    image: 'assets/york-pic.jpg',
     alignment: 'left'
   },
   {
@@ -30,7 +30,7 @@ export const STORY_CHAPTERS: Chapter[] = [
       'Created API services for business logic'
     ],
     techStack: ['React.js', 'Node.js', 'SQL', 'Python', 'ETL'],
-    image: 'https://picsum.photos/800/601?grayscale',
+    image: 'assets/td-1.jpg',
     alignment: 'right'
   },
   {
@@ -46,7 +46,7 @@ export const STORY_CHAPTERS: Chapter[] = [
       'Ensured compatibility and zero-defect releases'
     ],
     techStack: ['Java 17', 'Spring Boot', 'Maven', 'Security'],
-    image: 'https://picsum.photos/800/602?grayscale',
+    image: 'assets/td-2.jpg',
     alignment: 'left'
   },
   {
@@ -55,7 +55,7 @@ export const STORY_CHAPTERS: Chapter[] = [
     subtitle: 'Software Engineer @ ABB',
     period: 'May 2024 – Present',
     location: 'Brampton, ON',
-    description: 'At ABB, I’ve grown into a fully end-to-end engineer. I design systems, gather requirements from users and stakeholders, architect features, write the code, manage CI/CD, maintain infrastructure, handle releases, and support production — full ownership from idea to deployment. My work ranges from building cost-calculation engines that automate complex sales processes to migrating applications onto Kubernetes clusters, introducing modern authentication standards like OAuth2/OpenID Connect, and creating web APIs that power real industrial operations.',
+    description: 'At ABB, I’ve grown into a fully end-to-end engineer. I design systems, gather requirements from users and stakeholders, architect features, write the code, manage CI/CD, maintain infrastructure, handle releases, and support production. Full ownership from idea to deployment. My work ranges from building cost-calculation engines that automate complex sales processes to migrating applications onto Kubernetes clusters, introducing modern authentication standards like OAuth2/OpenID Connect, and creating web APIs that power real industrial operations.',
     achievements: [
       'Designed and built RESTful APIs using C# and .NET',
       'Migrated applications to Kubernetes and Docker',
@@ -63,7 +63,7 @@ export const STORY_CHAPTERS: Chapter[] = [
       'Owned full lifecycle: requirements → architecture → development → testing → releases → on-call'
     ],
     techStack: ['C#', '.NET', 'Docker', 'Kubernetes', 'SQL', 'Azure', 'OAuth2'],
-    image: 'https://picsum.photos/800/603?grayscale',
+    image: 'assets/abb-1.jpg',
     alignment: 'right'
   }
 ];
@@ -74,8 +74,8 @@ export const PROJECTS: Project[] = [
     title: 'Ridgeway Plaza Directory',
     link: 'https://www.ridgewayplazaeats.com/',
     tech: ['React.js', 'Bootstrap', 'SEO', 'Analytics'],
-    description: 'A digital gateway for North America’s largest halal plaza. What started as a directory became a community hub, driving massive organic traffic and helping local businesses thrive.',
-    image: 'https://picsum.photos/600/400?grayscale',
+    description: 'A digital gateway for North America’s largest halal plaza. What started as a simple directory now attracts over 10,000 monthly users and ranks #1 on search, becoming the go-to resource for navigating a busy, restaurant-packed plaza that previously had no guide or directory at all.',
+    image: '/assets/ridgeway-thumbnail.jpg',
     stats: [
       { label: 'Monthly Users', value: '10k+' },
       { label: 'SEO Ranking', value: '#1' },
@@ -83,29 +83,47 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'p2',
-    title: 'Online Auction System',
-    link: 'https://github.com/Choudhry-Shaharyar/Online-Auction-System',
-    tech: ['Spring Boot', 'Microservices', 'Docker', 'Azure'],
-    description: 'A complex 3-tier microservices platform supporting Dutch and Forward auction models. A deep dive into distributed systems, containerization, and cloud deployment.',
-    image: 'https://picsum.photos/600/401?grayscale'
+    id: 'p2`',
+    title: 'AI Teacher Transition Assistant',
+    link: 'https://github.com/Choudhry-Shaharyar',
+    tech: [
+      'React',
+      'TypeScript',
+      'OpenAI Realtime API',
+      'Public Speaking',
+    ],
+    description: 'An AI-driven system that automates classroom handovers when a homeroom teacher goes on leave. By having a short conversation with an AI chatbot, teachers can generate a complete, professional PDF transition report in under 5 minutes ensuring continuity, safety, and a smooth experience for students and supply teachers.',
+    image: '/assets/koru-group.jpg',
+    stats: [
+      { label: 'Finalist', value: 'Top 3' },
+      { label: 'Prize Won', value: '$2.5k' },
+      { label: 'Presentation', value: 'Koro Spotlight' }
+    ]
   },
   {
     id: 'p3',
-    title: 'App Review Sentiment Analysis',
-    link: 'https://github.com/Choudhry-Shaharyar/App-Review-Insights',
-    tech: ['Python', 'NLP', 'Machine Learning', 'Jupyter'],
-    description: 'Leveraging LLMs to decode user feedback. This pipeline extracts, cleans, and scores sentiment from banking app reviews to derive actionable product insights.',
-    image: 'https://picsum.photos/600/402?grayscale'
+    title: 'Online Auction System',
+    link: 'https://github.com/Choudhry-Shaharyar/Online-Auction-System',
+    tech: ['Spring Boot', 'Microservices', 'Docker', 'Azure'],
+    description: 'A 3-tier microservices auction platform supporting both Forward and Dutch auction models. Built with Spring Boot, React, and Docker, and deployed as a six-service architecture on Azure showcasing distributed systems design, API development, and cloud containerization.',
+    image: '/assets/bidsphere-thumbnail.jpg'
   },
   {
     id: 'p4',
-    title: 'York Financial Wise',
-    link: 'https://github.com/Choudhry-Shaharyar',
-    tech: ['React.js', 'Node.js', 'i18next'],
-    description: 'Financial literacy for everyone. Created in partnership with RBC to help international students navigate Canadian finance, supporting 7 languages for inclusivity.',
-    image: 'https://picsum.photos/600/403?grayscale'
+    title: 'App Review Sentiment Analysis',
+    link: 'https://github.com/Choudhry-Shaharyar/App-Review-Insights',
+    tech: ['Python', 'NLP', 'Machine Learning', 'Jupyter'],
+    description: 'An NLP pipeline that leverages LLMs, traditional sentiment models, and topic modeling to analyze thousands of banking app reviews. The system cleans, preprocesses, and scores sentiment using tools like TextBlob, VADER, and GPT, transforming raw feedback into actionable insights and feature recommendations for product teams.',
+    image: 'assets/appreview-thumbnail.jpg'
   }
+  // {
+  //   id: 'p4',
+  //   title: 'York Financial Wise',
+  //   link: 'https://github.com/Choudhry-Shaharyar',
+  //   tech: ['React.js', 'Node.js', 'i18next'],
+  //   description: 'Financial literacy for everyone. Created in partnership with RBC to help international students navigate Canadian finance, supporting 7 languages for inclusivity.',
+  //   image: 'https://picsum.photos/600/403?grayscale'
+  // }
 ];
 
 export const HERO_STATS: Stat[] = [
