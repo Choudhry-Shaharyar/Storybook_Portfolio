@@ -10,7 +10,7 @@ const SkillBar: React.FC<{ label: string; level: number }> = ({ label, level }) 
     </div>
     <div className="h-3 w-full bg-gray-200 border border-black rounded-full overflow-hidden">
       <div
-        className="h-full bg-blue-600 border-r border-black"
+        className="h-full bg-green-600 border-r border-black"
         style={{ width: `${level}%` }}
       ></div>
     </div>
@@ -53,7 +53,7 @@ const About: React.FC = () => {
           <div className="lg:col-span-8 flex flex-col gap-8">
             <ComicPanel>
               <h3 className="text-2xl font-black font-heading mb-4 uppercase flex items-center gap-2">
-                <Server className="text-blue-600" />
+                <Server className="text-green-600" />
                 Technical Profile
               </h3>
               <p className="font-serif text-lg leading-relaxed mb-8">

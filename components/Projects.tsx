@@ -24,22 +24,22 @@ const Projects: React.FC = () => {
             <ComicPanel key={project.id} className="flex flex-col h-full group transition-all duration-300 hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
               {/* Image Area */}
               <div className="h-48 md:h-64 bg-gray-100 border-2 border-black mb-6 overflow-hidden relative">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute top-2 right-2 bg-white border-2 border-black p-1">
-                   <ExternalLink size={16} />
+                  <ExternalLink size={16} />
                 </div>
               </div>
 
               {/* Content */}
               <div className="flex-1 flex flex-col">
-                <h3 className="text-3xl font-black font-heading mb-3 group-hover:text-blue-700 transition-colors">
+                <h3 className="text-3xl font-black font-heading mb-3 group-hover:text-green-700 transition-colors">
                   {project.title}
                 </h3>
-                
+
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((t, i) => (
                     <span key={i} className="text-xs font-bold uppercase tracking-wider bg-gray-100 px-2 py-1 rounded-sm">
@@ -53,11 +53,11 @@ const Projects: React.FC = () => {
                 </p>
 
                 {project.stats && (
-                  <div className="grid grid-cols-3 gap-2 bg-blue-50 p-4 border border-blue-100 mb-6">
+                  <div className="grid grid-cols-3 gap-2 bg-green-50 p-4 border border-green-100 mb-6">
                     {project.stats.map((stat, i) => (
                       <div key={i} className="text-center">
-                        <div className="font-black font-heading text-lg text-blue-800">{stat.value}</div>
-                        <div className="text-[10px] uppercase font-bold text-blue-400">{stat.label}</div>
+                        <div className="font-black font-heading text-lg text-green-800">{stat.value}</div>
+                        <div className="text-[10px] uppercase font-bold text-green-400">{stat.label}</div>
                       </div>
                     ))}
                   </div>

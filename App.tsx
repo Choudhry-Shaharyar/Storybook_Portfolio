@@ -23,7 +23,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <main className="min-h-screen bg-gray-50 text-gray-900 selection:bg-blue-200 selection:text-blue-900">
+    <main className="min-h-screen bg-gray-50 text-gray-900 selection:bg-green-200 selection:text-green-900">
       <Hero />
       <Timeline />
       <Projects />
@@ -32,7 +32,7 @@ const App: React.FC = () => {
 
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-8 right-8 bg-black text-white p-3 border-2 border-white shadow-lg transition-all duration-300 z-50 hover:bg-blue-600 ${showScrollTop ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}
+        className={`fixed bottom-8 right-8 bg-black text-white p-3 border-2 border-white shadow-lg transition-all duration-300 z-50 hover:bg-green-600 ${showScrollTop ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}
         aria-label="Scroll to top"
       >
         <ArrowUp size={24} />
