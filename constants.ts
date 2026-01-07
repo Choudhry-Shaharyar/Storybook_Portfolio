@@ -102,11 +102,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'p3',
-    title: 'Online Auction System',
-    link: 'https://github.com/Choudhry-Shaharyar/Online-Auction-System',
-    tech: ['Spring Boot', 'Microservices', 'Docker', 'Azure'],
-    description: 'A 3-tier microservices auction platform supporting both Forward and Dutch auction models. Built with Spring Boot, React, and Docker, and deployed as a six-service architecture on Azure showcasing distributed systems design, API development, and cloud containerization.',
-    image: '/assets/bidsphere-thumbnail.jpg'
+    title: 'RealtorFlyer',
+    link: 'https://realtorflyer.ca',
+    tech: ['Next.js', 'Supabase', 'Gemini API', 'Stripe', 'Tailwind CSS'],
+    description: 'A SaaS platform enabling individual Canadian real estate agents to generate AI-powered property marketing flyers in minutes. Features Google Gemini API integration for automated copywriting, Supabase authentication and database management, and Stripe billing with tiered subscription plans.',
+    image: '/assets/realtor-flyer.png'
   },
   {
     id: 'p4',
@@ -115,6 +115,14 @@ export const PROJECTS: Project[] = [
     tech: ['Python', 'NLP', 'Machine Learning', 'Jupyter'],
     description: 'An NLP pipeline that leverages LLMs, traditional sentiment models, and topic modeling to analyze thousands of banking app reviews. The system cleans, preprocesses, and scores sentiment using tools like TextBlob, VADER, and GPT, transforming raw feedback into actionable insights and feature recommendations for product teams.',
     image: 'assets/appreview-thumbnail.jpg'
+  },
+  {
+    id: 'p5',
+    title: 'Online Auction System',
+    link: 'https://github.com/Choudhry-Shaharyar/Online-Auction-System',
+    tech: ['Spring Boot', 'Microservices', 'Docker', 'Azure'],
+    description: 'A 3-tier microservices auction platform supporting both Forward and Dutch auction models. Built with Spring Boot, React, and Docker, and deployed as a six-service architecture on Azure showcasing distributed systems design, API development, and cloud containerization.',
+    image: '/assets/bidsphere-thumbnail.jpg'
   }
   // {
   //   id: 'p4',
