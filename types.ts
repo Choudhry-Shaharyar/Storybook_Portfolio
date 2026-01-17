@@ -24,6 +24,7 @@ export interface Project {
   link?: string;
   image: string;
   stats?: { label: string; value: string }[];
+  videoUrl?: string;
 }
 
 export interface Stat {

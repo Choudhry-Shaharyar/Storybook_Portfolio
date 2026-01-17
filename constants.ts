@@ -106,7 +106,8 @@ export const PROJECTS: Project[] = [
     link: 'https://realtorflyer.ca',
     tech: ['Next.js', 'Supabase', 'Gemini API', 'Stripe', 'Tailwind CSS'],
     description: 'A SaaS platform enabling individual Canadian real estate agents to generate AI-powered property marketing flyers in minutes. Features Google Gemini API integration for automated copywriting, Supabase authentication and database management, and Stripe billing with tiered subscription plans.',
-    image: '/assets/realtor-flyer.png'
+    image: '/assets/realtor-flyer.png',
+    videoUrl: 'https://youtu.be/_7CjpVlpmJU'
   },
   {
     id: 'p4',
@@ -122,7 +123,8 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/Choudhry-Shaharyar/Online-Auction-System',
     tech: ['Spring Boot', 'Microservices', 'Docker', 'Azure'],
     description: 'A 3-tier microservices auction platform supporting both Forward and Dutch auction models. Built with Spring Boot, React, and Docker, and deployed as a six-service architecture on Azure showcasing distributed systems design, API development, and cloud containerization.',
-    image: '/assets/bidsphere-thumbnail.jpg'
+    image: '/assets/bidsphere-thumbnail.jpg',
+    videoUrl: 'https://www.youtube.com/watch?v=hw6NPgU4GjQ'
   }
   // {
   //   id: 'p4',
