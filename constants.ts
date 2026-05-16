@@ -53,7 +53,7 @@ export const STORY_CHAPTERS: Chapter[] = [
     id: 'ch4',
     title: 'Chapter 4: Architecting Solutions',
     subtitle: 'Software Engineer @ ABB',
-    period: 'May 2024 – Present',
+    period: 'May 2024 – Mar. 2026',
     location: 'Brampton, ON',
     description: 'At ABB, I’ve grown into a fully end-to-end engineer. I design systems, gather requirements from users and stakeholders, architect features, write the code, manage CI/CD, maintain infrastructure, handle releases, and support production. Full ownership from idea to deployment. My work ranges from building cost-calculation engines that automate complex sales processes to migrating applications onto Kubernetes clusters, introducing modern authentication standards like OAuth2/OpenID Connect, and creating web APIs that power real industrial operations.',
     achievements: [
@@ -65,6 +65,22 @@ export const STORY_CHAPTERS: Chapter[] = [
     techStack: ['C#', '.NET', 'Docker', 'Kubernetes', 'SQL', 'Azure', 'OAuth2'],
     image: 'assets/abb-1.jpg',
     alignment: 'right'
+  },
+  {
+    id: 'ch5',
+    title: 'Chapter 5: Scaling Growth & AI-First Engineering',
+    subtitle: 'Software Engineer II @ Jobber',
+    period: 'Mar. 2026 – Present',
+    location: 'Toronto, ON',
+    description: 'Joining Jobber’s CX Growth — Revenue Expansion team, I’m building features that help over 100,000 home service providers succeed. My focus spans add-ons, plan updates, trials, and placement strategies to drive platform revenue. It’s an incredibly exciting time to be part of a late-stage growth startup, especially because we’ve embraced an AI-first engineering culture. Building with Ruby on Rails, React, and an arsenal of AI tools like Claude, Codex, and OpenSpec, I’m helping shape the future of the platform and shipping high-impact solutions at scale.',
+    achievements: [
+      'Developing features for add-ons, trials, and plan updates to drive revenue expansion',
+      'Leveraging AI-first coding practices with Claude, Codex, and OpenSpec',
+      'Impacting over 100k home service businesses at scale'
+    ],
+    techStack: ['Ruby on Rails', 'TypeScript', 'React.js', 'PostgreSQL', 'AI Tools'],
+    image: 'assets/jobber.jpg',
+    alignment: 'left'
   }
 ];
 

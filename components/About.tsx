@@ -83,7 +83,7 @@ const About: React.FC = () => {
             <ComicPanel variant="dark" className="flex items-center justify-between">
               <div>
                 <h3 className="text-xl font-bold font-heading text-white">CURRENT STATUS</h3>
-                <p className="text-gray-400">Building scalable solutions at ABB.</p>
+                <p className="text-gray-400">Building scalable solutions at Jobber.</p>
               </div>
               <div className="animate-pulse w-4 h-4 bg-green-500 rounded-full box-shadow-green"></div>
             </ComicPanel>
